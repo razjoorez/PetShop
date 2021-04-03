@@ -16,6 +16,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { SignupComponent } from './login/signup.component';
+import { CreatePetComponent } from './pet/create-pet/create-pet.component';
+import { ListPetComponent } from './pet/list-pet/list-pet.component';
 
 
 @NgModule({
@@ -25,7 +28,10 @@ import { MatListModule } from '@angular/material/list';
    // NavComponent,
     MainComponent,
    NavComponent,
-   MainNavComponent
+   MainNavComponent,
+   SignupComponent,
+   CreatePetComponent,
+   ListPetComponent
   ],
   imports: [
     BrowserModule,
