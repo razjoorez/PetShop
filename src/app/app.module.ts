@@ -19,6 +19,7 @@ import { MatListModule } from '@angular/material/list';
 import { SignupComponent } from './login/signup.component';
 import { CreatePetComponent } from './pet/create-pet/create-pet.component';
 import { ListPetComponent } from './pet/list-pet/list-pet.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { ListPetComponent } from './pet/list-pet/list-pet.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MaterialModule,
     FormsModule,
     LayoutModule,
