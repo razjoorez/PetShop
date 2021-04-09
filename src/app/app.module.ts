@@ -20,6 +20,7 @@ import { SignupComponent } from './login/signup.component';
 import { CreatePetComponent } from './pet/create-pet/create-pet.component';
 import { ListPetComponent } from './pet/list-pet/list-pet.component';
 import { HttpClientModule } from '@angular/common/http';
+import { StoreModule } from '@ngrx/store';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    StoreModule.forRoot({}, {})
   ],
   providers: [],
   bootstrap: [AppComponent]
