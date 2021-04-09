@@ -42,20 +42,17 @@ import { StoreModule } from '@ngrx/store';
     FormsModule,
     ReactiveFormsModule,
     LayoutModule,
-<<<<<<< HEAD
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
     MatListModule,
     StoreModule.forRoot({}, {})
-=======
     // MatToolbarModule,
     // MatButtonModule,
     // MatSidenavModule,
     // MatIconModule,
     // MatListModule
->>>>>>> eaf0cda01c9f6a79f84f5e988dfcb2930b60c032
   ],
   providers: [],
   bootstrap: [AppComponent]
